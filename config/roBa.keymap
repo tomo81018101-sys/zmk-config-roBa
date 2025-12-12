@@ -12,6 +12,15 @@
     automouse-layer = <4>;
     scroll-layers = <5>;
 
+    automouse-ms = <400>;           
+    jitter-move-threshold = <10>;   
+    jitter-scroll-threshold = <10>;  
+
+    move-speed = <10>;            
+    scroll-speed = <10>;
+};
+
+
     // arrows {
     //     layers = <3>;
     //     bindings =
@@ -23,7 +32,6 @@
     //     wait-ms = <5>;
     //     tap-ms = <5>;
     // };
-};
 
 / {
     combos {
@@ -86,7 +94,7 @@
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LANG1  &lt 2 SPACE  &lt_to_layer_0 3 LANG2      &kp BACKSPACE          &lt 1 ENTER                             &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
         FUNCTION {

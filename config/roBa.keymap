@@ -11,13 +11,6 @@
 &trackball {
     automouse-layer = <4>;
     scroll-layers = <5>;
-
-    automouse-ms = <400>;           
-    jitter-move-threshold = <10>;   
-    jitter-scroll-threshold = <10>;  
-
-    move-speed = <10>;            
-    scroll-speed = <10>;
 };
 
 

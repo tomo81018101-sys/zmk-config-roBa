@@ -132,8 +132,6 @@
 &trans  &kp F1  &kp F2  &kp F3  &kp F12  &trans      &trans  &trans  &trans  &trans  &trans  &none
 &trans  &trans  &trans  &trans  &trans   &trans      &trans  &trans                          &none
             >;
-
-            sensor-bindings = <&inc_dec_kp LG(C_AC_ZOOM_IN) LG(C_AC_ZOOM_OUT)>;
         };
 
         /* ===== Numbers ===== */
@@ -157,7 +155,7 @@
 &trans              &trans                  &trans          &trans                   &trans               &trans      &trans  &trans                          &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+            sensor-bindings = <&inc_dec_kp LC(C_AC_ZOOM_IN) LC(C_AC_ZOOM_OUT)>;
         };
 
         /* ===== Mouse ===== */

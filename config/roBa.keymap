@@ -162,10 +162,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                            &trans  &trans        &trans      &trans         &trans
-&trans  &trans  &trans  &trans  &kp LG(PLUS)  &trans      &trans  &trans  &mkp MB1      &mkp MB2    &trans         &trans
-&trans  &trans  &trans  &trans  &trans        &trans      &trans  &trans  &kp LG(PLUS)  &kp LG(N0)  &kp LG(MINUS)  &trans
-&trans  &trans  &trans  &trans  &trans        &trans      &trans  &trans                                           &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
             >;
 
             sensor-bindings = <&encoder_msc_up_down>;
